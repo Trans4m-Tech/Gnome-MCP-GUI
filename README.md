@@ -1,5 +1,7 @@
 # Gnome MCP Bridge — Desktop GUI
 
+[![Backend](https://img.shields.io/badge/backend-Trans4m--Tech%2FGnome--MCP-blue)](https://github.com/Trans4m-Tech/Gnome-MCP)
+
 A native macOS/Linux window that gives you a real eyes-on view of a
 running [Gnome File Bridge](https://github.com/Trans4m-Tech/Gnome-MCP)
 server. Reads the audit log, lets you invoke tools, surfaces pending
