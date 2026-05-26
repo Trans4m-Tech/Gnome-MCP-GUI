@@ -1,0 +1,22 @@
+[package]
+name = "gnome-mcp-gui"
+version = "0.1.0"
+edition = "2021"
+authors = ["Auto-Gnome Team"]
+license = "MIT OR Apache-2.0"
+description = "Native desktop GUI for the Gnome File Bridge MCP server"
+
+[[bin]]
+name = "gnome-mcp-gui"
+path = "src/main.rs"
+
+[dependencies]
+eframe = { version = "0.30", default-features = false, features = ["default_fonts", "glow", "wayland", "x11"] }
+egui = "0.30"
+egui_extras = { version = "0.30", features = ["all_loaders"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+ureq = { version = "2", features = ["json"] }
+dirs = "5"
+chrono = { version = "0.4", features = ["serde"] }
+anyhow = "1"
